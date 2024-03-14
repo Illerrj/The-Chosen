@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2? family= Kdam+Thmor+Pro & display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav{
+    width: 60%;
+}
+
+li {
+    color: #b3fff0;
+    font-size: 19px;
+    list-style: none;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover{
+    color: aqua;
+}
+
+
+nav{
+    width: 60%;
+}
+
+.social-media {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    cursor: pointer;
+    
+}
+
+i{
+   
+    font-size: 1.2rem; 
+ }
+ 
+ i:hover{
+     color: rgb(60, 125, 125);
+ }
+nav{
+    width: 60%;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+#logo1 {
+    width: 150px;
+    height: auto;
+}
+
+#banner{
+    background-image: url('https://images.alphacoders.com/114/1142813.jpg');
+    width: 100%;
+    height: 600px;
+    background-position: 100%;
+    background-size: cover;
+
+}
+
+.banner10{
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR8MRVELaW1Klr04-VIcMUZzTPz66ah2bEZr09oPlHA4NNf6Wmr');
+   
+}
+
+.banner11{
+    background-image: url('https://ntvb.tmsimg.com/assets/assets/70392_v9_bc.jpg?w=270&h=360');
+}
+
+.banner12{
+    background-image: url('https://bloximages.newyork1.vip.townnews.com/gazette.com/content/tncms/assets/v3/editorial/6/f5/6f5aba26-b1c4-11ec-a9e9-f7c4986e8498/6247061226666.image.jpg?resize=500%2C500');
+}
+
+.banner13 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BNTgyZmMwYzEtMDUwYS00NzRkLWIzMTgtODgyYzNlZmY4M2NjXkEyXkFqcGdeQXVyMjYzMDYwNjQ@._V1_.jpg');
+}
+
+.banner14 {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/60c0093317f9f602a788c9ff/6e87552f-52ac-473b-a296-ac3345e30bf9/799alt.jpg');
+}
+
+.banner15 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BODRkYTQxYjItZWQ4Yy00ZmE1LWFlZDUtNDNkNzAyMDJhYWFjXkEyXkFqcGdeQXVyMjg3OTMyOA@@._V1_.jpg');
+}
+
+.actor-cards-container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content1{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    cursor: pointer;
+    transition: .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color:  #818885;
+    font-size: 18px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #b3fff0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+    .footer-navigation {
+        display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation{
+        display: block;
+    }
+
+    nav{
+      display: none;  
+    }
+
+    #banner {
+        background-position: 70%;
+    }
+
+
+    
+    .cards-content1 {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+       
+    }
+
+  
+}   
